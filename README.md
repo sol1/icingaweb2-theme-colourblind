@@ -16,11 +16,11 @@ for people with deuteranopia, protanopia or tritanopia.
 
 ## About
 
-[This module](https://github.com/sol1/icingaweb2-theme-colourblind.git) is
+[This module](https://github.com/sol1/icingaweb2-theme-colourblind) is
 distributed under the MIT Licence. See ``LICENSE`` for more information.
 
 [Sol1](https://sol1.com.au/) is an Icinga Partner based in Sydney, Australia
-and offers professional services and support for Icinga.
+and offers professional services and support for your install.
 
 ## Contributing
 

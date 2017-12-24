@@ -1,0 +1,5 @@
+Module: colourblind
+Version: 0.1.0
+Description: Colour blind theme
+ This module provides a colourblind theme which aims to improve visual clarity
+ for people with deuteranopia, protanopia or tritanopia. 

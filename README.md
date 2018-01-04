@@ -6,7 +6,7 @@ for people with deuteranopia, protanopia or tritanopia.
 ## Installation
 
  * `cd /usr/share/icingaweb2/modules`
- * `git clone https://github.com/sol1/icingaweb2-theme-colourblind.git`
+ * `git clone https://github.com/sol1/icingaweb2-theme-colourblind.git colourblind`
  * `icingacli module enable colourblind`
  * Activate the colourblind theme for your profile (user > My Account > Theme)
 

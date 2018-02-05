@@ -12,6 +12,8 @@ for people with deuteranopia, protanopia or tritanopia.
 
 ## Release History
 
+ * 0.2.0
+   * Working draft
  * 0.1.0
    * First draft
 

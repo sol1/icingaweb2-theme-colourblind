@@ -1,0 +1,96 @@
+    // Duplicate the default colours for the docs
+    // 
+    @default-color-ok: #44bb77;
+    @default-color-warning: #ffaa44;
+    @default-color-warning-handled: #ffcc66;
+    @default-color-critical: #ff5566;
+    @default-color-critical-handled: #ff99aa;
+    @default-color-unknown: #aa44ff;
+    @default-color-unknown-handled: #cc77ff;
+    @default-color-pending: #77aaff; // Custom colours
+    // 
+    // Based on the 15-colour palette at http://mkweb.bcgsc.ca/biovis2012
+    // 
+    // * Critical stays red
+    // * OK becomes colour 6 (purple) to differentiate it from red while staying strong
+    // * Unknown becomes colour 3 because it's kind of neutral 
+    // * Warning stays yellow
+    // * Pending becomes colour 5
+    // 
+    @color-ok: #490092;
+    @color-warning: #ffaa44;
+    @color-warning-handled: #ffcc66;
+    @color-critical: #ff5566;
+    @color-critical-handled: #ff99aa;
+    @color-unknown: #009999;
+    @color-unknown-handled: #00bbbb;
+    @color-pending: #ffb6db; // Styles for documentation
+    .colourblind-demo-box {
+        width: 125px;
+        height: 75px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .default-palette {
+        &.icinga-badge {
+            color: white;
+            padding: 10px;
+            &.state-ok {
+                background-color: @default-color-ok;
+            }
+            &.state-warning {
+                background-color: @default-color-warning;
+                &.handled {
+                    background-color: @default-color-warning-handled;
+                }
+            }
+            &.state-critical {
+                background-color: @default-color-critical;
+                &.handled {
+                    background-color: @default-color-critical-handled;
+                }
+            }
+            &.state-unknown {
+                background-color: @default-color-unknown;
+                &.handled {
+                    background-color: @default-color-unknown-handled;
+                }
+            }
+            &.state-pending {
+                background-color: @default-color-pending;
+            }
+        }
+    }
+
+    .custom-palette {
+        &.icinga-badge {
+            color: white;
+            padding: 10px;
+            
+            &.state-ok {
+                background-color: @color-ok;
+            }
+            &.state-warning {
+                background-color: @color-warning;
+                &.handled {
+                    background-color: @color-warning-handled;
+                }
+            }
+            &.state-critical {
+                background-color: @color-critical;
+                &.handled {
+                    background-color: @color-critical-handled;
+                }
+            }
+            &.state-unknown {
+                background-color: @color-unknown;
+                &.handled {
+                    background-color: @color-unknown-handled;
+                }
+            }
+            &.state-pending {
+                background-color: @color-pending;
+            }
+        }
+    }

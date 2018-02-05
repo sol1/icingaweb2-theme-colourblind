@@ -1,0 +1,62 @@
+.colourblind-demo-box {
+  width: 125px;
+  height: 75px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.default-palette.icinga-badge {
+  color: white;
+  padding: 10px;
+}
+.default-palette.icinga-badge.state-ok {
+  background-color: #44bb77;
+}
+.default-palette.icinga-badge.state-warning {
+  background-color: #ffaa44;
+}
+.default-palette.icinga-badge.state-warning.handled {
+  background-color: #ffcc66;
+}
+.default-palette.icinga-badge.state-critical {
+  background-color: #ff5566;
+}
+.default-palette.icinga-badge.state-critical.handled {
+  background-color: #ff99aa;
+}
+.default-palette.icinga-badge.state-unknown {
+  background-color: #aa44ff;
+}
+.default-palette.icinga-badge.state-unknown.handled {
+  background-color: #cc77ff;
+}
+.default-palette.icinga-badge.state-pending {
+  background-color: #77aaff;
+}
+.custom-palette.icinga-badge {
+  color: white;
+  padding: 10px;
+}
+.custom-palette.icinga-badge.state-ok {
+  background-color: #490092;
+}
+.custom-palette.icinga-badge.state-warning {
+  background-color: #ffaa44;
+}
+.custom-palette.icinga-badge.state-warning.handled {
+  background-color: #ffcc66;
+}
+.custom-palette.icinga-badge.state-critical {
+  background-color: #ff5566;
+}
+.custom-palette.icinga-badge.state-critical.handled {
+  background-color: #ff99aa;
+}
+.custom-palette.icinga-badge.state-unknown {
+  background-color: #009999;
+}
+.custom-palette.icinga-badge.state-unknown.handled {
+  background-color: #00bbbb;
+}
+.custom-palette.icinga-badge.state-pending {
+  background-color: #ffb6db;
+}

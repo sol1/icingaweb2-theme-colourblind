@@ -37,13 +37,15 @@
   padding: 10px;
 }
 .custom-palette.icinga-badge.state-ok {
-  background-color: #490092;
+  background-color: #79fa54;
 }
 .custom-palette.icinga-badge.state-warning {
-  background-color: #ffaa44;
+  color: black;
+  background-color: #fce94e;
 }
 .custom-palette.icinga-badge.state-warning.handled {
-  background-color: #ffcc66;
+  color: white;
+  background-color: #8a93b7;
 }
 .custom-palette.icinga-badge.state-critical {
   background-color: #ff5566;
@@ -52,11 +54,12 @@
   background-color: #ff99aa;
 }
 .custom-palette.icinga-badge.state-unknown {
-  background-color: #009999;
+  background-color: #9cb2f9;
 }
 .custom-palette.icinga-badge.state-unknown.handled {
-  background-color: #00bbbb;
+  color: black;
+  background-color: #cfd8fc;
 }
 .custom-palette.icinga-badge.state-pending {
-  background-color: #ffb6db;
+  background-color: #000000;
 }

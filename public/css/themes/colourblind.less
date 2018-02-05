@@ -19,16 +19,29 @@
 // * Warning stays yellow
 // * Pending becomes colour 5
 // 
-@color-ok: #490092;
-@color-warning: #ffaa44;
-@color-warning-handled: #ffcc66;
+@color-ok: #79fa54;
+@color-warning: #fce94e;
+@color-warning-handled: #8a93b7;
 @color-critical: #ff5566;
 @color-critical-handled: #ff99aa;
-@color-unknown: #009999;
-@color-unknown-handled: #00bbbb;
-@color-pending: #ffb6db;
+@color-unknown: #9cb2f9;
+@color-unknown-handled: #cfd8fc;
+@color-pending: #000000; // Styles for documentation
 
-// Styles for documentation
+/* Increase colour contrast for these ones */
+.badge {
+	&.state-warning {
+		color: black;
+	}
+	&.state-unknown {
+		&.handled {
+			color: black;
+		}
+	}
+}
+
+/* Styles for documentation ONLY */
+
 .colourblind-demo-box {
 	width: 125px;
 	height: 75px;

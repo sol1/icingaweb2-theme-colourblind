@@ -10,6 +10,11 @@ for people with deuteranopia, protanopia or tritanopia.
  * `icingacli module enable colourblind`
  * Activate the colourblind theme for your profile (user > My Account > Theme)
 
+## Upgrading
+
+ * `cd /usr/share/icingaweb2/modules/colourblind`
+ * `git pull`
+
 ## Release History
 
  * 0.2.0

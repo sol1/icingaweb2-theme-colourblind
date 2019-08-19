@@ -1,5 +1,7 @@
 # icingaweb2-theme-colourblind
 
+## NOTE: a [similar theme is now part of Icinga as of v2.7.0](https://icinga.com/2019/08/13/color-blind-theme-for-icinga-web-2/). You should use that instead, if possible.
+
 This Icingaweb2 module provides a colourblind theme which aims to improve visual clarity
 for people with deuteranopia, protanopia or tritanopia.
 
